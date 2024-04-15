@@ -1,3 +1,31 @@
+# Qué es el CRUD
+En informática, CRUD es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en inglés: Create, Read, Update and Delete), que se usa para referirse a las funciones básicas en bases de datos o la capa de persistencia en un software.
+
+# Ejemplos de aplicaciones del CRUD
+
+- **Aplicaciones de gestión de contenido**
+- **Aplicaciones de comercio electrónico**
+- **Sistemas de reservas**
+- **Aplicaciones de redes sociales**
+- **Aplicaciones de gestión de proyectos**
+
+# Significado de las siglas CRUD
+
+- **Create**
+Esta fase se utiliza para crear un nuevo registro en la base. Para implementar la operación «Crear», es necesario proporcionar un formulario o una interfaz donde el usuario pueda ingresar los datos para el nuevo registro. Después de que el usuario envía los datos, se debe realizar una validación de los mismos y luego insertarlos en la base o en el sistema de almacenamiento.
+
+- **Read**
+Esta fase se utiliza para leer los datos de la base y mostrarlos al usuario. Para implementar la operación «Leer», se debe proporcionar una interfaz que permita al usuario buscar y recuperar los registros existentes. Esto puede lograrse mediante el uso de filtros de búsqueda y una lista de resultados. Cuando el usuario hace clic en un registro, se debe mostrar su información completa.
+
+- **Update**
+Esta fase se utiliza para actualizar los datos existentes en la base de datos. Para implementar la operación «Actualizar», es necesario proporcionar una interfaz para que el usuario pueda modificar los datos de un registro existente. Una vez que el usuario envía los datos actualizados, debe realizarse una validación de los mismos y luego actualizar el registro correspondiente en la base o en el sistema de almacenamiento.
+
+- **Delete**
+Esta fase se utiliza para eliminar un registro existente. Para implementar la operación «Eliminar», se debe proporcionar una interfaz que permita al usuario seleccionar un registro existente y confirmar su eliminación.
+Después de la confirmación, se debe borrar el registro correspondiente de la base o sistema.
+
+![image](https://github.com/PFLC/610-crud-basicos-JessHJ310/assets/113735007/7efedd5d-7704-4c3a-8628-c8c14c39eca3)
+
 
 # Aplicación CRUD de PHP
 
@@ -60,6 +88,9 @@ Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete
 ## Nota de Seguridad
 
 Esta aplicación es una demostración básica y no implementa medidas avanzadas de seguridad. Es recomendable utilizar declaraciones preparadas (prepared statements) u ORM para las interacciones con la base de datos para prevenir ataques de inyección SQL.
+
+# Conclusión
+En resumen, el CRUD es una herramienta invaluable en el desarrollo de software para la gestión de datos, pero su eficacia depende de cómo se integre con otras prácticas de desarrollo y cómo se adapte a las necesidades específicas de cada proyecto.
 
 ---
 
